@@ -10,24 +10,16 @@ const projects = [
         status: "Completed",
         description: "A browser-based tool that converts PDF to other file formats (e.g. PNG, JPEG, TIFF) and vice versa securely.",
         techStack: ["HTML", "CSS", "JavaScript"],
-        repoLink: "https://github.com/Cold-ay/pdfConversion",
-        demoLink: "https://example.com"
+        repoLink: "https://github.com/Cold-ay/pdf-converter",
+        demoLink: "https://cold-ay.github.io/pdf-converter/"
     },
     {
         title: "Earthquake Escape Route",
-        status: "In Progress",
-        description: "",
-        techStack: ["AWS EventBridge", "Python", "Docker", "Redis"],
-        repoLink: null, // Set to null if there is no repo
-        demoLink: "https://example.com/proposal.pdf" // Could link to a PDF or Google Doc
-    },
-    {
-        title: "Legacy System Migration Strategy",
-        status: "In Progress",
-        description: "Currently leading the architectural strategy to migrate a monolithic PHP application to a modern serverless stack, aiming to reduce hosting costs by 30%.",
-        techStack: ["AWS Lambda", "Next.js", "GraphQL"],
-        repoLink: "https://github.com",
-        demoLink: null
+        status: "Completed",
+        description: "A browser-based emergency mapping app built with Vite, Vanilla JavaScript, and Leaflet. The app allows users to select a location and view the nearest escape routes to the selected location.",
+        techStack: ["Vite", "Vanilla JavaScript", "Leaflet"],
+        repoLink: "https://github.com/Cold-ay/earthquake-escape-route/",
+        demoLink: "https://cold-ay.github.io/earthquake-escape-route/"
     }
 ];
 
