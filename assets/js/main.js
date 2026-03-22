@@ -10,7 +10,7 @@ const projects = [
         status: "Completed",
         description: "A browser-based tool that converts PDF to other file formats (e.g. PNG, JPEG, TIFF) and vice versa securely.",
         techStack: ["HTML", "CSS", "JavaScript"],
-        repoLink: "https://github.com/Cold-ay/pdf-converter",
+        repoLink: "https://github.com/Cold-ay/pdf-converter/",
         demoLink: "https://cold-ay.github.io/pdf-converter/"
     },
     {
