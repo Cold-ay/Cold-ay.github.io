@@ -498,3 +498,22 @@ section, footer { scroll-margin-top: 115px; }
     html { scroll-behavior: auto; }
     *, *::before, *::after { transition: none !important; }
 }
+
+/* CV-backed project summaries, experience, and language proficiency. */
+.ai-visual { background: #e8e3f3; }
+.workflow-visual { background: #f6edc9; }
+.system-flow { display: flex; flex-direction: column; align-items: center; gap: .25rem; padding: .75rem 0; font-family: var(--font-heading); font-size: .95rem; font-weight: 700; text-align: center; }
+.system-flow span { padding: .35rem .65rem; background: white; border: 2px solid #111; box-shadow: var(--shadow-sm); }
+.project-context { border-top: 2px solid #111; padding-top: 1.25rem; font-size: .8rem; color: var(--text-muted); }
+.experience-details { padding-left: 1.2rem; margin-top: .85rem; color: var(--text-muted); font-size: .95rem; }
+.experience-details li + li { margin-top: .5rem; }
+.languages-section { padding-bottom: 5rem; }
+.language-list { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; }
+.language-list div { padding: 1.25rem; background: white; border: 2px solid #111; box-shadow: var(--shadow-sm); }
+.language-list dt { font-family: var(--font-heading); font-weight: 700; }
+.language-list dd { color: var(--text-muted); font-size: .875rem; margin-top: .35rem; }
+@media (max-width: 768px) {
+    .language-list { grid-template-columns: repeat(2, 1fr); }
+    .timeline-meta span { display: block; margin-left: 0; }
+    .languages-section { padding-bottom: 3rem; }
+}
